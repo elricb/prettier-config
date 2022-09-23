@@ -2,26 +2,26 @@
   "name": "@elricb/prettier-config",
   "version": "0.0.2",
   "description": "Shared Prettier config for my projects",
+  "license": "MIT",
+  "author": "elricb (https://github.com/elricb)",
+  "homepage": "https://github.com/elricb/prettier-config#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/elricb/prettier-config.git"
   },
-  "author": "elricb (https://github.com/elricb)",
-  "main": "index.json",
-  "files": [
-    "index.json"
-  ],
-  "license": "MIT",
-  "prettier": "./index.json",
-  "devDependencies": {
-    "prettier": "^2.4.0"
-  },
   "bugs": {
     "url": "https://github.com/elricb/prettier-config/issues"
   },
-  "homepage": "https://github.com/elricb/prettier-config#readme",
-  "dependencies": {},
+  "source": "index.json",
+  "main": "index.json",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "files": [
+    "index.json"
+  ],
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "prettier": "^2.4.0"
   }
 }
