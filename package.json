@@ -1,6 +1,6 @@
 {
   "name": "@elricb/prettier-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Shared Prettier config for my projects",
   "license": "MIT",
   "author": "elricb (https://github.com/elricb)",
